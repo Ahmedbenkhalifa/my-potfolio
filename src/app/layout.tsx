@@ -45,13 +45,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={`${display.variable}`}>
       <body>
-        <Analytics />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <GradientImage />
           <Background />
           <Header />
           <div className="min-h-[calc(100vh-64px)]">{children}</div>
           <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
