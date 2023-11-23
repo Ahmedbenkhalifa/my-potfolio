@@ -140,7 +140,7 @@ export const siteConfig: ISiteConfig = {
   ],
   projects: [
     {
-      title: "Notionfolio",
+      title: "My portfolio",
       slug: "my-portfolio",
       image: "/images/screenshots/my-portfolio/screenshot-01.png",
       screenshots: [
@@ -149,11 +149,11 @@ export const siteConfig: ISiteConfig = {
         "/images/screenshots/my-portfolio/screenshot-03.png",
       ],
       summary:
-        "its a versatile platform that empowers users to create their personalized portfolios and blogs seamlessly using Next.js and Vercel. It leverages the power of Notion as a content management system, offering features such as SEO-friendly URLs, responsive design, and incremental static regeneration.",
-      tags: ["Nextjs", "Typescriot", "Tailwind CSS"],
+        "This project is a versatile platform that empowers users to create their personalized portfolios and blogs seamlessly using Next.js and Vercel. It leverages the power of Notion as a content management system, offering features such as SEO-friendly URLs, responsive design, and incremental static regeneration.",
+      tags: ["Nextjs", "Typescriot", "Tailwind CSS", "Notion"],
       description: [
         "This repo is what I use to power my personal blog and portfolio website.",
-        "It's perfect for building your own personal website if you are a developer, a designer, a researcher, a writer with almost everything customizable.",
+        "It's perfect for building your own personal website if you are a developer, a designer, a researcher, a writer and allows for everything to be costumizable.",
         "Features include writing posts using Notion as CMS, pretty URLs, SEO-friendly, entirely customizable through one config file, fast page views, sleek portfolio showcase, dark and light mode, responsive design, incremental static regeneration, RSS feed, deploy on Vercel in minutes, search posts instantly, analytics with Vercel Analytics, and the ability to display your courses.",
       ],
       links: {
@@ -173,12 +173,11 @@ export const siteConfig: ISiteConfig = {
         "/images/screenshots/pengguin-ui/screenshot-03.png",
       ],
       summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
+        "Pengguin UI unleashes the Power of React, Storybook, Typescript, and Material UI for Reusable and Elegant User Interfaces.",
       tags: ["React", "Storybook", "Typescript", "Material UI"],
       description: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
-        "Posuere morbi leo urna molestie. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Est velit egestas dui id ornare arcu odio ut sem. Faucibus in ornare quam viverra orci. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
-        "Montes nascetur ridiculus mus mauris vitae. Sagittis aliquam malesuada bibendum arcu vitae elementum. Elit pellentesque habitant morbi tristique. Elementum facilisis leo vel fringilla. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Elementum nibh tellus molestie nunc non blandit massa enim nec",
+        "Pengguin UI is a comprehensive UI library that uses React, Storybook, Typescript, and Material UI to streamline the development process and deliver a seamless user experience.",
+        "It exclusively uses reusable components  that were build to feed Pengguin's unique needs for a seamless blend of versatility and style.",
       ],
       links: {
         website: "https://www.ahmedbk.com",
@@ -188,7 +187,7 @@ export const siteConfig: ISiteConfig = {
       featured: true,
     },
     {
-      title: "mind map app",
+      title: "Mind map app",
       image: "/images/projects/project01.png",
       slug: "mind-map-app",
       screenshots: [
@@ -198,12 +197,11 @@ export const siteConfig: ISiteConfig = {
         "/images/screenshots/mind-map-app/screenshot-04.png",
       ],
       summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
+        "Mind map app is a web platform that enhances company management through an innovative mind map-based interface",
       tags: ["React", "NodeJs", "redux", "react-flow"],
       description: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
-        "Posuere morbi leo urna molestie. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Est velit egestas dui id ornare arcu odio ut sem. Faucibus in ornare quam viverra orci. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
-        "Montes nascetur ridiculus mus mauris vitae. Sagittis aliquam malesuada bibendum arcu vitae elementum. Elit pellentesque habitant morbi tristique. Elementum facilisis leo vel fringilla. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Elementum nibh tellus molestie nunc non blandit massa enim nec",
+        "Creating a new node (representing any entity) triggers a series of events powered by React Flow and D3-force. The force-directed layout algorithm ensures that nodes arrange themselves organically, creating an aesthetically pleasing and easily understandable graph.",
+        "React Flow was not only used to create a dynamic and visually appealing graph but also played a crucial role in handling the persistence of data maps. With its built-in features for saving and loading, React Flow simplifies the process of preserving the intricate network of nodes and connections.",
       ],
       links: {
         website: "https://d2v.ahmedbk.com/",
@@ -220,9 +218,12 @@ export const siteConfig: ISiteConfig = {
         "/images/screenshots/codehub-website/screenshot-03.png",
         "/images/screenshots/codehub-website/screenshot-02.png",
       ],
-      summary:
-        "Create a weather forecast web application that allows users to check the weather for different locations. The project will involve using APIs, front-end technologies like React, and integrating with a weather data provider.",
+      summary: "A one pager website made to advertise a co-working space.",
       tags: ["Nextjs", "Material-ui", "Typescript"],
+      description: [
+        "Developed the website to showcase CodeHub.tn as a vibrant coworking space, highlighting its services, and pricing plans.",
+        "Worked with static site generation (SSG) techniques as well as Nextjs, enhancing the website's performance and search engine optimization (SEO).",
+      ],
       links: {
         website: "https://www.ahmedbk.com",
         github: "https://github.com/Ahmedbenkhalifa/my-potfolio",
