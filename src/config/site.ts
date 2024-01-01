@@ -56,7 +56,7 @@ export const siteConfig: ISiteConfig = {
     {
       title: "Front-end Developer",
       company: "Pengguin Inc.",
-      link: "https://app.pengguin.com/",
+      link: "https://www.ispeakto.com/",
       location: "Delaware, United States",
       startDate: "August 2022",
       endDate: "Present",
