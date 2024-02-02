@@ -38,10 +38,10 @@ export const Header = () => {
             )}
             <span className="inline-block font-bold">{name}</span>
           </Link>
-          <div className="">
+          <div className="hidden sm:flex">
             <Nav items={nav} />
           </div>
-          <div className="flex space-x-2">
+          <div className="hidden space-x-2 sm:flex">
             <Button className="px-6">Contact</Button>
           </div>
           <div className="flex flex-1 sm:hidden ">
