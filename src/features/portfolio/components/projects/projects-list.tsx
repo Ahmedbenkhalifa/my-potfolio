@@ -15,6 +15,7 @@ export const ProjectsList = (props: ProjectsListProps) => {
     <ul className="flex flex-col space-y-4">
       {projects.map((project) => (
         <Link
+          key={project.slug}
           href={`/projects/${project.slug}`}
           className="group relative cursor-pointer"
         >
@@ -32,7 +33,9 @@ export const ProjectsList = (props: ProjectsListProps) => {
             />
             <div className="col-span-9 sm:col-span-7">
               <h3 className="text-lg font-bold">{project.title}</h3>
-              <p className="mb-2">{project.summary}</p>
+              <p className="mb-2">
+                {project.summary ? project.summary : project.description}
+              </p>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag, index) => (
                   <Badge variant="filled" key={index}>

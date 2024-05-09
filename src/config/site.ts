@@ -84,7 +84,7 @@ export const siteConfig: ISiteConfig = {
       ],
     },
     {
-      title: "Some featured projects",
+      title: "Full Stack Developer",
       company: "Innofab",
       link: "https://www.ahmedbk.com",
       location: "United States",
@@ -140,6 +140,21 @@ export const siteConfig: ISiteConfig = {
   ],
   projects: [
     {
+      title: "Arifsid",
+      slug: "nutri-quiz",
+      image: "/images/screenshots/nutri-quiz/project-quizz.png",
+      screenshots: ["/images/screenshots/nutri-quiz/project-quizz.png"],
+      summary:
+        "Developed a quiz application for nutritionists, including questions to determine sustainable diets and provide general information, with statistical and analytical features.",
+      tags: ["React", "Typescript", "Tailwind CSS", "RTK-Query", "Python"],
+      links: {
+        website: "https://random-frontend-vert.vercel.app/",
+        // github: "https://github.com/Ahmedbenkhalifa/my-potfolio",
+      },
+      createdAt: "2023",
+      featured: true,
+    },
+    {
       title: "My portfolio",
       slug: "my-portfolio",
       image: "/images/screenshots/my-portfolio/screenshot-01.png",
@@ -150,7 +165,7 @@ export const siteConfig: ISiteConfig = {
       ],
       summary:
         "This project is a versatile platform that empowers users to create their personalized portfolios and blogs seamlessly using Next.js and Vercel. It leverages the power of Notion as a content management system, offering features such as SEO-friendly URLs, responsive design, and incremental static regeneration.",
-      tags: ["Nextjs", "Typescriot", "Tailwind CSS", "Notion"],
+      tags: ["Nextjs", "Typescript", "Tailwind CSS", "Notion"],
       description: [
         "This repo is what I use to power my personal blog and portfolio website.",
         "It's perfect for building your own personal website if you are a developer, a designer, a researcher, a writer and allows for everything to be costumizable.",
@@ -218,7 +233,7 @@ export const siteConfig: ISiteConfig = {
         "/images/screenshots/codehub-website/screenshot-03.png",
         "/images/screenshots/codehub-website/screenshot-02.png",
       ],
-      summary: "A one pager website made to advertise a co-working space.",
+      summary: "A landing page created to promote a co-working space",
       tags: ["Nextjs", "Material-ui", "Typescript"],
       description: [
         "Developed the website to showcase CodeHub.tn as a vibrant coworking space, highlighting its services, and pricing plans.",
@@ -231,26 +246,26 @@ export const siteConfig: ISiteConfig = {
       createdAt: "2021",
       featured: true,
     },
-    {
-      title: "Weather Forecast App",
-      slug: "weather-app",
-      image: "/images/projects/project02.png",
-      screenshots: [
-        "/images/screenshots/weather-app/screenshot-01.png",
-        "/images/screenshots/weather-app/screenshot-02.png",
-        "/images/screenshots/weather-app/screenshot-03.png",
-      ],
-      summary:
-        "Create a weather forecast web application that allows users to check the weather for different locations. The project will involve using APIs, front-end technologies like React, and integrating with a weather data provider.",
-      tags: ["React", "API Integration", "Weather"],
+    // {
+    //   title: "Weather Forecast App",
+    //   slug: "weather-app",
+    //   image: "/images/projects/project02.png",
+    //   screenshots: [
+    //     "/images/screenshots/weather-app/screenshot-01.png",
+    //     "/images/screenshots/weather-app/screenshot-02.png",
+    //     "/images/screenshots/weather-app/screenshot-03.png",
+    //   ],
+    //   summary:
+    //     "Create a weather forecast web application that allows users to check the weather for different locations. The project will involve using APIs, front-end technologies like React, and integrating with a weather data provider.",
+    //   tags: ["React", "API Integration", "Weather"],
 
-      links: {
-        website: "https://www.ahmedbk.com",
-        github: "https://github.com/Ahmedbenkhalifa/my-potfolio",
-      },
-      createdAt: "2019",
-      featured: false,
-    },
+    //   links: {
+    //     website: "https://www.ahmedbk.com",
+    //     github: "https://github.com/Ahmedbenkhalifa/my-potfolio",
+    //   },
+    //   createdAt: "2019",
+    //   featured: false,
+    // },
   ],
   contact: {
     title: "Get in touch",
