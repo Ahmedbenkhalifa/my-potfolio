@@ -88,8 +88,8 @@ export const siteConfig: ISiteConfig = {
       company: "Innofab",
       link: "https://www.ahmedbk.com",
       location: "United States",
-      startDate: "Jun 2017",
-      endDate: "Dec 2018",
+      startDate: "Jun 2021",
+      endDate: "Aug 2022",
       projects: [
         {
           name: "Digital2Value",
