@@ -90,7 +90,7 @@ export const siteConfig: ISiteConfig = {
       title: "Full Stack Developer",
       company: "Innofab",
       link: "https://www.ahmedbk.com",
-      location: "United States",
+      location: "Tunisia",
       startDate: "Jun 2021",
       endDate: "Aug 2022",
       projects: [
