@@ -71,8 +71,9 @@ export default function Home() {
             admin app from one monorepo, as the sole developer.
           </li>
           <li>
-            The iOS and Android app, which I build and ship alone. It&apos;s on
-            the <A href="https://apps.apple.com/app/id6738668409">App Store</A>{" "}
+            The iOS and Android app, where I&apos;m the sole engineer. It&apos;s
+            on the{" "}
+            <A href="https://apps.apple.com/app/id6738668409">App Store</A>{" "}
             and{" "}
             <A href="https://play.google.com/store/apps/details?id=com.speakduo.app">
               Play Store
