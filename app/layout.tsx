@@ -52,21 +52,13 @@ export default function RootLayout({
     >
       <body>
         {children}
-        <svg
-          className="pointer-events-none fixed inset-0 isolate z-50 opacity-70 mix-blend-soft-light"
-          width="100%"
-          height="100%"
-        >
-          <filter id="pedroduarteisalegend">
-            <feTurbulence
-              type="fractalNoise"
-              baseFrequency="0.80"
-              numOctaves="4"
-              stitchTiles="stitch"
-            />
-          </filter>
-          <rect width="100%" height="100%" filter="url(#pedroduarteisalegend)" />
-        </svg>
+        <div
+          aria-hidden
+          className="pointer-events-none fixed inset-0 z-50 opacity-70 mix-blend-soft-light"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")`,
+          }}
+        />
       </body>
     </html>
   );
