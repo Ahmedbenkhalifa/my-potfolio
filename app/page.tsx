@@ -18,7 +18,7 @@ export default function Home() {
     <main className="mx-auto max-w-2xl px-6 py-20 sm:py-28">
       <header className="flex items-center gap-4">
         <Image
-          src="/images/avatar.png"
+          src="/images/avatar.jpg"
           alt="Ahmed Ben Khalifa"
           width={56}
           height={56}
@@ -37,20 +37,23 @@ export default function Home() {
         <p>
           For the last four years I&apos;ve been building{" "}
           <A href="https://www.speakduo.com">SpeakDuo</A>, a language-learning
-          platform with 40,000+ registered learners. I work across the whole
+          platform with 40,000+ learners. I work across the whole
           product: the React/TypeScript web app, the Python API, the React
           Native mobile app, and the Kubernetes cluster it all runs on.
         </p>
         <p>
           I like owning things end to end, from the first commit to the
-          incident response.
+          incident response. And I like that the work matters: many of our
+          learners are immigrants practicing a language they need for real
+          life.
         </p>
       </section>
 
       <section className="mt-12">
         <h2 className="text-lg font-semibold tracking-tight">Work</h2>
         <p className="mt-4 leading-relaxed">
-          At SpeakDuo, since 2022, a few things I&apos;ve built:
+          I&apos;ve been at SpeakDuo since 2022. A few things I&apos;ve built
+          there:
         </p>
         <ul className="mt-4 space-y-3 leading-relaxed list-disc pl-5 marker:text-muted">
           <li>
@@ -58,18 +61,17 @@ export default function Home() {
             6,500+ live group classes.
           </li>
           <li>
-            Two AI assessment products: a voice interview agent and a speech
-            pipeline that has graded 300,000+ recordings, about 45,000 hours of
-            learner speech, against CEFR levels.
+            Two AI systems that listen to learners speak: a voice interview
+            agent, and a feedback pipeline that has graded 300,000+ recordings.
           </li>
           <li>
-            A pipeline rescue I&apos;m proud of: median feedback time went from
-            16 minutes to about 1 minute, and nine out of ten recordings now
-            finish in under 2 minutes.
+            A pipeline rescue I&apos;m proud of: parallelizing the per-recording
+            work and batching the scoring calls cut feedback from 16 minutes to
+            about a minute.
           </li>
           <li>
-            The UNSW and UCL university products, a student app and a faculty
-            admin app from one monorepo, as the sole developer.
+            Student and faculty apps for two university clients, UNSW and UCL,
+            shipped from one monorepo.
           </li>
           <li>
             The iOS and Android app, where I&apos;m the sole engineer. It&apos;s
@@ -83,10 +85,10 @@ export default function Home() {
           </li>
         </ul>
         <p className="mt-6 leading-relaxed">
-          Before that I was a full-stack developer at Digital2Value, where I
-          built an interactive consultation tool: a mind map that walks
-          companies through management consultations, with AI-generated
-          questions and real-time autosave.
+          Before that I was a full-stack developer at Digital2Value, building
+          an interactive mind-map tool that consultants used to run sessions
+          with their clients. The interesting parts: AI-generated questions at
+          each step, and sync that survived dropped connections.
         </p>
       </section>
 
