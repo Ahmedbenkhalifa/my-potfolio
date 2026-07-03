@@ -64,7 +64,8 @@ export default function Home() {
           </li>
           <li>
             A pipeline rescue I&apos;m proud of: median feedback time went from
-            16 minutes to about 1 minute.
+            16 minutes to about 1 minute, and nine out of ten recordings now
+            finish in under 2 minutes.
           </li>
           <li>
             The UNSW and UCL university products, a student app and a faculty
